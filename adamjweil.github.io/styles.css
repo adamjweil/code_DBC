@@ -1,0 +1,113 @@
+body {
+ max-width: 1000px;
+ margin: 0px;
+}
+.title {
+ display: block;
+ position: fixed;
+ width: 100%;
+ top:0;
+ left: 0;
+ height: 100px;
+ list-style-type: middle;
+ text-align: center;
+ text-transform: capitalize;
+ font-size: 60px;
+ font-style: oblique;
+ font-family: sans-serif;
+ padding-top: 10px;
+ background: url("images/header_background.png");
+ border-bottom: 1px dashed gray;
+/* padding: 20px;*/
+  z-index: 1;
+  opacity: 50%;
+}
+
+#nav {
+  width: 100%;
+  position: absolute;
+  display: list-item;
+  top: 110px;
+  height: 20px;
+  background-color: F8F8F8;
+  border-bottom: 1px dashed gray;
+  font-size: 18px;
+  font-style: normal;
+  font-family: serif;
+  text-align: left;
+  list-style-type: top;
+  text-indent: 5px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+#bodyafter {
+  position: absolute;
+  top:175px;
+  padding-left: 20px;
+}
+
+p {
+  width:800px;
+}
+
+h2 {
+  position: inherit;
+  display: block;
+  text-indent: 50px;
+}
+
+.form {
+  display: inline-block;
+  position: absolute;
+  top:200px;
+  left: 100px;
+  padding-left: 30px;
+}
+
+#arbor {
+  height: 455px;
+  padding-left: 40px;
+}
+
+#burton {
+  height: 430px;
+}
+
+.boards {
+  display: table-header-group;
+  position: inherit;
+}
+
+#snowboarding {
+  width: 300px;
+  display: inline;
+  padding-left:25%;
+}
+
+footer {
+  padding-top:1100px;
+  padding-left: 200px;
+  padding-bottom: 0px;
+  display: inline-block;
+ /* position: bottom;*/
+}
+
+#bodyafter1 {
+  position: absolute;
+  top:175px;
+  padding-left: 20px;
+  color: green;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: green;
+  }
+  .title {
+    display: block;
+    position: static;
+}
